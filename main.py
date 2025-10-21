@@ -18,7 +18,7 @@ clk = pygame.time.Clock()
 
 healtim = 10 * FPS
 player = Mario(100, 100, 50, 50, 7)
-boss = Boss(500, -10000, 200, 200, 5, 12, 1, 20, targ=player)
+boss = Boss(500, -10000, 200, 200, 5, 120, 1, 20, targ=player)
 
 Heal(0, 1000, player, boss)
 
